@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    width: auto;
+    background: url(./images/top-image.svg),
+    url(./images/rocket.svg),
+    url(./images/bottom-image.svg);
+    background-position: top left, 80% 50%, bottom left;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.contagem {
+    display: flex;
+    gap: 80px;
+    color: #C8C8C8;
+    font-weight: 300;
+}
+
+h1 {
+    color: #6C63FF;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#timer {
+    color: #4D4C59;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.inscreva {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.inscreva p {
+    color: #9C9AB6;
+}
+
+#subscribe {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color:  #6C63FF;
+    border-radius: 1rem;
+    color: #FFFFFF;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
